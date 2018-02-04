@@ -1,6 +1,4 @@
 import urllib
-
-
 def browse_url(url):
   req=urllib.urlopen(url)
   f=open("data.html","wb")
